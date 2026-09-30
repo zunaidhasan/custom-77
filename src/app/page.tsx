@@ -69,7 +69,7 @@ export default function HomePage() {
   return <>
     <header className="site-header">
       <div className="header-inner shell">
-        <a href="#top" className="brand" aria-label="Custom 77, back to top" onClick={() => setMenuOpen(false)}><span className="brand-main">CUSTOM<span className="brand-number">77</span></span><span className="brand-sub">WELDING & WOODWORK</span></a>
+        <a href="#top" className="brand" aria-label="Custom 77, back to top" onClick={() => setMenuOpen(false)}><Image src="/images/brand/logo.png" alt="Custom 77 — Welding & Woodwork" width={160} height={110} priority className="brand-logo" /></a>
         <nav className={menuOpen ? "header-nav is-open" : "header-nav"} aria-label="Main navigation">
           <a href="#work" onClick={() => setMenuOpen(false)}>The work</a>
           <a href="#services" onClick={() => setMenuOpen(false)}>What we do</a>
